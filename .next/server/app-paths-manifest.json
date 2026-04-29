@@ -4,6 +4,5 @@
   "/dashboard/page": "app/dashboard/page.js",
   "/dashboard/precificacao/page": "app/dashboard/precificacao/page.js",
   "/dashboard/filamentos/page": "app/dashboard/filamentos/page.js",
-  "/dashboard/impressoras/page": "app/dashboard/impressoras/page.js",
-  "/dashboard/produtos/page": "app/dashboard/produtos/page.js"
+  "/dashboard/orcamentos/page": "app/dashboard/orcamentos/page.js"
 }

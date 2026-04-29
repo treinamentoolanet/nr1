@@ -17,6 +17,7 @@ import {
   Menu,
   X,
   ChevronRight,
+  FileText,
 } from 'lucide-react';
 
 const navItems = [
@@ -26,6 +27,7 @@ const navItems = [
   { href: '/dashboard/produtos', label: 'Produtos', icon: ShoppingBag },
   { href: '/dashboard/precificacao', label: 'Precificacao', icon: Calculator },
   { href: '/dashboard/simulador', label: 'Simulador', icon: TrendingUp },
+  { href: '/dashboard/orcamentos', label: 'Orcamentos', icon: FileText },
   { href: '/dashboard/concorrencia', label: 'Concorrencia', icon: Users },
   { href: '/dashboard/configuracoes', label: 'Configuracoes', icon: Settings },
 ];

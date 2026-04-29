@@ -80,6 +80,41 @@ export interface UserSettings {
   multiplicador_varejo: number;
   practical_mode_completed: boolean;
   practical_mode_step: number;
+  empresa_nome: string;
+  empresa_cnpj: string;
+  empresa_contato: string;
+  empresa_endereco: string;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface Quote {
+  id: string;
+  user_id: string;
+  numero: string;
+  cliente_nome: string;
+  produto_nome: string;
+  produto_id: string | null;
+  printer_nome: string;
+  filament_nome: string;
+  quantidade: number;
+  preco_unitario: number;
+  desconto_percentual: number;
+  imposto_percentual: number;
+  taxa_marketplace: number;
+  tarifa_fixa_marketplace: number;
+  marketplace_nome: string;
+  price_mode: 'varejo' | 'atacado';
+  custos_totais: number;
+  subtotal: number;
+  impostos: number;
+  taxa_marketplace_valor: number;
+  lucro_liquido: number;
+  margem_liquida: number;
+  total_final: number;
+  observacoes: string;
+  validade_dias: number;
+  status: 'pendente' | 'aceito' | 'recusado';
   created_at: string;
   updated_at: string;
 }
