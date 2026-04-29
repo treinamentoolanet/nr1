@@ -1,9 +1,9 @@
 {
-  "/login/page": "app/login/page.js",
   "/dashboard/page": "app/dashboard/page.js",
   "/dashboard/precificacao/page": "app/dashboard/precificacao/page.js",
   "/dashboard/filamentos/page": "app/dashboard/filamentos/page.js",
   "/dashboard/orcamentos/page": "app/dashboard/orcamentos/page.js",
   "/dashboard/concorrencia/page": "app/dashboard/concorrencia/page.js",
-  "/dashboard/simulador/page": "app/dashboard/simulador/page.js"
+  "/dashboard/simulador/page": "app/dashboard/simulador/page.js",
+  "/dashboard/configuracoes/page": "app/dashboard/configuracoes/page.js"
 }
