@@ -50,6 +50,16 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/dashboard/orcamentos/page.js"
+    ],
+    "/dashboard/concorrencia/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/concorrencia/page.js"
+    ],
+    "/dashboard/simulador/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/simulador/page.js"
     ]
   }
 }
